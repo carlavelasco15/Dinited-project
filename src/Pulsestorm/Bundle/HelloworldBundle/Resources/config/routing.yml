@@ -1,0 +1,7 @@
+pulsestorm_helloworld:
+    resource: "@PulsestormHelloworldBundle/Resources/config/routing.yml"
+    prefix:   /
+
+pulsestorm_helloworld_myfirstcontroller:
+    pattern:  /hello-oro
+    defaults: {_controller: Pulsestorm\Bundle\HelloworldBundle\Controller\OurController::indexAction}

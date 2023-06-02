@@ -17,6 +17,8 @@ class AppKernel extends OroKernel
         //bundles
         );
 
+        $bundles[] = new Pulsestorm\Bundle\HelloworldBundle\PulsestormHelloworldBundle();
+
         if ('dev' === $this->getEnvironment()) {
             $bundles[] = new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle();
             if (class_exists('Oro\TwigInspector\Bundle\OroTwigInspectorBundle')) {

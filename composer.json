@@ -4,7 +4,10 @@
     "homepage": "https://github.com/oroinc/crm-application.git",
     "license": "OSL-3.0",
     "autoload": {
-        "psr-4": {"": "src/"},
+        "psr-4": {
+            "": "src/",
+            "Pulsestorm\\": "src/Pulsestorm/"
+        },
         "classmap": [
             "src/AppKernel.php"
         ],
